@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang = "pl">
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Psychologia kolorów</title>
+  <link rel="shortcut icon" href="rgb.ico">
+</head>
+<script>
+function ReturnColor(c)
+{
+
+var c= document.getElementById("color").value;
+var str= new String ("Wybrałeś:");
+
+document.write(str+c);
+document.write("<br/>");
+
+var R=c.slice(1,3);
+var G=c.slice(3,5);
+var B=c.slice(5);
+
+document.write("Współrzędne RGB: RGB("
++ parseInt(R,16) + ","
++ parseInt(G,16) + ","
++ parseInt(B,16) + ")");
+document.write("<br/>");
+
+var color = c;
+var str1 = "Napis w Twoim kolorze. To na razie!";
+var str2 = str1.fontcolor(c);
+document.write(str2);
+
+document.write("<div style='border: solid; height: 90px; width: 90px; background-color:"+color+"'/>");
+}
+</script>
+<body>
+
+
+<div class="topnav">
+  <span><img id="brain" src = "rgbrain.png"></span>
+  <a class="active" href="test.html">Strona główna</a>
+  <a href="strona.html">O stronie</a>
+  <a href="autor.html">O autorze</a>
+</div>
+
+
+
+
+
+
+<div class="content">
+
+
+  <h1>Psychologia kolorów<br><br></h1>
+  
+  
+  
+  
+  <div>
+	<h4 style="color: blue;"> Kolory w naszym życiu ogrywają wielką rolę. Dzięki nim odbieramy świat w różnoraki sposób.<br>
+	Gdyby nie miały aż tak wielkiego znaczenia, nie byłyby wykorzystywane w szerokopojętym marketingu czy też... niechlubnej manipulacji.<br>
+	A przecież są! Poniżej znajduje się przedstawienie wszystkich podstawowych kolorów tęczy i ich znaczenie!<br>
+Miłego czytania!<br>	</h4>
+</div>
+
+  
+  
+  
+  
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Kolor</th>
+        <th>Próbka i jak wygląda</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="#red">Czerwony</a></td>
+        <td style="background-color:red;"></td>
+      </tr>
+      <tr>
+        <td><a href="#or">Pomarańczowy</a></td>
+        <td style="background-color:orange;"></td>
+      </tr>
+	  <tr>
+        <td><a href="#yel">Żółty</a></td>
+        <td style="background-color:yellow;"></td>
+      </tr>
+	  <tr>
+        <td><a href="#gre">Zielony</a></td>
+        <td style="background-color:green;"></td>
+      </tr>
+	  <tr>
+        <td><a href="#blu">Niebieski</a></td>
+        <td style="background-color:blue;"></td>
+      </tr>
+	  <tr>
+        <td><a href="#purp">Fioletowy</a></td>
+        <td style="background-color:purple;"></td>
+      </tr>
+	  <tr>
+        <td><a href="#pink">Różowy</a></td>
+        <td style="background-color:pink;"></td>
+      </tr>
+	  <tr>
+        <td><a href="#bl">Czarny</a></td>
+        <td style="background-color:black;"></td>
+      </tr>
+	  <tr>
+        <td><a href="#whi">Biały</a></td>
+        <td style="background-color:white;"></td>
+      </tr>
+	 
+    </tbody>
+  
+  </table>
+  
+  <div>
+  <h2 id="red" style="background-color: red;" >Czerwony</h2>
+  <p>Czerwony jest jednym z najczęściej używanych kolorów w marketingu:<br>
+  wyróżnia się spośród innych kolorów, jest atrakcyjny i stosowany w celu przyciągnięcia uwagi. <br>
+  Przyspiesza tętno i tworzy poczucie pilnej sprawy, zagrożenia lub natychmiastowości. <br>
+  Czerwony stymuluje apetyt i zachęca do kupowania impulsywengo.<br>
+Reprezentuje zarówno miłość, jak i nienawiść.<br>
+Czerwony jest kolorem królów, radości i niebezpieczeństwa.<br>
+Reprezentuje krew i życie.<br>
+Jest to dynamiczny, uwodzicielski kolor, który budzi naszą najbardziej agresywną stronę.<br></p>
+  </div>
+  <div>
+  <h2 id="or" style="background-color: orange;">Pomarańczowy</h2>
+  <p>W marketingu wiąże się z entuzjastycznymi zakupami, odzwierciedla emocje i ciepło.<br>
+Intensywny odcień pomarańczowego może wiązać się z agresją. <br>Dlatego odcień powinien być łagodny, przyjazny i stonowany.
+Jest ulubionym kolorem w świecie reklamy, ponieważ zachęca do zakupów.<br>
+Jest związany z transformacją i buddyzmem.<br>
+Pomarańczowy pobudza smaki. <br></p>
+  </div>
+  <div>
+  <h2 id="yel" style="background-color: yellow;">Żółty</h2>
+  <p>W marketingu reprezentuje optymizm i młodość.<br>
+Przedstawia jasność i jest często używany do zwrócenia uwagi na niektóre produkty na półce.<br>
+Nie należy go nadużywać w sklepach, ponieważ szybko męczy oczy. Dlatego w sklepach zwykle używa się<br> 
+go bardziej na końcowych półkach niż na środkowych półkach.<br>
+Dla ekspertów badających kolory żółty jest kolorem sprzecznym: <br>reprezentuje zarówno dobro, jak i zło, optymizm i zazdrość, zrozumienie i zdradę.<br>
+Żółty ilustruje kreatywność i sprzyja jej rozwojowi.<br>
+</p>
+  </div>
+  <div>
+  <h2 id="gre" style="background-color: green;">Zielony</h2>
+  <p>Zielony to kolor wzrostu, odnowy i odrodzenia.<br>
+Wiąże się ze zdrowiem, naturą, świeżością i spokojem.<br>
+Pomaga w rozwiązywaniu problemów i promuje wolność, uzdrowienie i spokój.<br>
+Ciemna zieleń reprezentuje pieniądze, sprawy gospodarcze i burżuazję.<br>
+ oraz obiecującą miłość. <br>
+Zielony to kolor, który pomaga nam się zrelaksować i pomaga w wydzielaniu melatoniny -<br> - hormonu ważnego przy zasypaniu.<br> Jest polecany osobom chorym na depresję.</p>
+  </div>
+  <div>
+  <h2 id="blu" style="background-color: blue;">Niebieski</h2>
+  <p>Niebieski jest najczęściej używanym kolorem w biurach i biznesie, ponieważ poprawia produktywność i nie rozprasza. <br>
+  Jest to kolor, który sugeruje poczucie pewności i zaufania do marki.<br>
+  Wykazano, że niebieski zmniejsza apetyt, dlatego nie powinien być wykorzystywany do reklamowania żywności.<br>
+  To kolor harmonii, wierności i współczucia. <br> 
+  Jest to najzimniejsza barwa, ale mimo to jest związana z pojęciem duchowości i fantazji.<br></p>
+  </div>
+  <div>
+  <h2 id="purp" style="background-color: purple;">Fioletowy</h2>
+  <p>Fiolet jest często używany w marketingu, kosmetykach lub produktach przeciwstarzeniowych.<br>
+Ma działanie uspokajające.<br>
+Wiele marek używa go do reprezentowania kreatywności, wyobraźni i mądrości.<br>
+Fiolet symbolizuje kobiecość, magię, moc, niejednoznaczność i duchowość. <br> </p>
+  </div>
+  <div>
+  <h2 id="pink" style="background-color: pink;">Różowy</h2>
+  <p>Różowy symbolizuje wdzięk i uprzejmość.<br>
+W marketingu konsumenci kojarzą go z dziećmi, romantycznością czy płcią piękną. <br>
+</p>
+  </div>
+  <div>
+  <h2 id="bl"  style="background-color: black; color:white;">Czarny</h2>
+  <p>Kolor czarny kojarzy się z elegancją, tajemnicą, dyskretnością, a także siłą.<br>
+Wywołuje silne emocje i jest autorytatywnym kolorem.<br>
+W świecie mody jest uważany za stylowy i nadający wyrafinowania.<br>
+Symbolizuje koniec czegoś: śmierć, stratę. <br>
+W przeszłości reprezentował księży, a współcześnie reprezentuje konserwatywnych ludzi. <br></p>
+  </div>
+  <div>
+  <h2 id="whi"  style="background-color: white;">Biały</h2>
+  <p>Psychologia koloru określa biały jako symbol niewinności i czystości.<br>
+Reprezentuje początek, wolę rozpoczęcia czegoś nowego.<br>
+Biały oznacza otwartość i uczciwość, a także pokój, uzdrowienie i spokój.<br>
+Wiąże się z doskonałością.<br></p>
+  </div>
+  
+  
+  
+  
+
+
+
+
+
+
+
+   <form action="HTMLColorPicker.html">
+<label for="colorpicker"><h2>Wybierz swój kolorek na koniec:</h2></label>
+<input type="color" name="favcolor" id="color" >
+<input type="submit" onclick = "ReturnColor()" id="submit" />
+<h3>Ciesz się swoim nowowybranym kolorem i jego warością RGB czy też zapisem heksadecymalnym!</h3>
+</form>
+  
+</div>
+			
+
+	
+
+
+</body>
+</html>
